@@ -1,5 +1,5 @@
 # Modify this portfolio
 
-All Aboout MJ
-
+All About MJ
+Test
 [Live Site](https://portfolio-isaac-lab5.netlify.app/)
