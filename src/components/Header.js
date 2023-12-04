@@ -107,7 +107,6 @@ class Header extends Component {
                 {name}
               </h1>
               <div className="title-container">
-              CodeMaestro
                 <HeaderTitleTypeAnimation />
               </div>
               
