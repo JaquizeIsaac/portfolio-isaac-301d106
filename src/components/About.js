@@ -7,10 +7,11 @@ import vueIcon from "@iconify/icons-logos/vue";
 class About extends Component {
   render() {
     if (this.props.sharedBasicInfo) {
-      var profilepic = "public/images/Isaac-profile.jpeg" + this.props.sharedBasicInfo.image;
+      var profilepic = "images/" +this.props.sharedBasicInfo.image
     }
     if (this.props.resumeBasicInfo) {
-      var sectionName = this.props.resumeBasicInfo.section_name.about;
+      console.log ("Resumebasicinfo",this.props.resumeBasicInfo)
+      var sectionName = this.props.resumeBasicInfo.section_name.about
       var hello = this.props.resumeBasicInfo.description_header;
       var about = this.props.resumeBasicInfo.description;
     }
@@ -23,11 +24,11 @@ class About extends Component {
           </h1>
           <div className="row center mx-auto mb-5">
             <div className="col-md-4 mb-5 center">
-              <div className="polaroid">
+              <div className="polariod">
                 <span style={{ cursor: "auto" }}>
                   <img
                     height="250px"
-                    src={"public/images/Isaac-profile.jpeg"}
+                    src={profilepic}
 
                     alt="Avatar placeholder"
                   />

@@ -11,10 +11,10 @@ class Home extends Component {
           resumeProjects={this.props.resumeData.projects}
           resumeBasicInfo={this.props.resumeData.basic_info}
         />
-        <Skills
+        {/* <Skills
           sharedSkills={this.props.sharedData.skills}
           resumeBasicInfo={this.props.resumeData.basic_info}
-        />
+        /> */}
         <Experience
           resumeExperience={this.props.resumeData.experience}
           resumeBasicInfo={this.props.resumeData.basic_info}
